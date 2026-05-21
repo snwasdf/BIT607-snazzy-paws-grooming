@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- charset and set viewport for responsive page design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snazzy Paws Grooming - Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- logo/return to home page and website title -->
+        <div class="logo-title">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Snazzy Paws Grooming Logo">
+            </a>
+            <h1>Snazzy Paws Grooming</h1>
+        </div>
+
+        <!-- navigation links -->
+        <nav>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="booking.html">Booking</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="booking-section">
+            <!-- booking form and header section -->
+             <h2>Book an Appointment</h2>
+
+             <form>
+                <label for="full-name">Full Name: </label>
+                <input type="text" id="full-name" name="full-name">
+
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone">Phone Number: </label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="dog-name">Dog Name: </label>
+                <input type="text" id="dog-name" name="dog-name">
+
+                <label for="dog-breed">Dog Breed: </label>
+                <input type="text" id="dog-breed" name="dog-breed">
+
+                <label for="dog-age">Dog Age: </label>
+                <input type="number" id="age" name="age">
+
+                <label for="date">Date: </label>
+                <input type="date" id="date" name="date">
+
+                <label for="time">Time: </label>
+                <input type="time" id="time" name="time">
+                
+                <label for="service">Select a Service: </label>
+                <select name="service" id="service">
+                    <option>Bath and Brush</option>
+                    <option>Haircut</option>
+                    <option>Nail Trim</option>
+                    <option>Ear Cleaning</option>
+                    <option>Teeth Brushing</option>
+                    <option>De-shedding Treatment</option>
+                    <option>Flea and Tick Treatment</option>
+                    <option>Spa Package</option>
+                    <option>Express Service</option>
+                    <option>Medicated Bath</option>
+                    <option>Special-Breed Cuts</option>
+                    <option>Puppy Package</option>
+                    <option>Senior Dog Package</option>
+                    <option>Full Grooming Package</option>
+                </select>
+
+                <input type="submit" value="Submit">
+             </form>
+        </section>
+
+        <section class="booking-info-section">
+            <!-- booking information section -->
+             <h2>Booking Information</h2>
+             <p>Please complete this booking form with your preferred date, time, and service.</p>
+             <p>We will review your booking request and send an email to confirm the appointment.</p>
+        </section>
+    </main>
+    <!-- footer w/ opening hours + copyright image -->
+    <footer>
+        <div class="footer-text">
+            <p>Opening Hours: Monday to Saturday, 9:00 am - 5:00 pm</p>
+        </div>
+
+        <div class="footer-image">
+            <img src="images/copyright.png" alt="Copyright image">
+        </div>
+    </footer>
+</body>
+</html>
